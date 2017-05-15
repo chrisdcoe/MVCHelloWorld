@@ -1,9 +1,10 @@
-﻿@{
+﻿@model MVCHelloWorld.Models.Person
+@{
     ViewBag.Title = "Home Page";
 }
 
 <div class="jumbotron">
-    <h1>ASP.NET</h1>
 	<h1>What's Your Name</h1>
 
+	<h2>Hello @Model.FirstName @Model.LastName</h2>
 </div>

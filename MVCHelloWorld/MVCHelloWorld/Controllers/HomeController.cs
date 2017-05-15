@@ -11,10 +11,10 @@ namespace MVCHelloWorld.Controllers
     {
         public ActionResult Index()
         {
-            Person person = new Person { FirstName = "", LastName = "" };
+            Person person = new Person { FirstName = "Firsty", LastName = "Lastman" };
 
 
-            return View();
+            return View(person);
         }
 
 
